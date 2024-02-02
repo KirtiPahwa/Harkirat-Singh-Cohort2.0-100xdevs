@@ -1,0 +1,13 @@
+Commands:
+1. pwd - path to current directory
+2. cd - change directory
+3. ls - list of the files in the current directory.
+4. mkdir- make directory
+5. touch- make file
+6. cat- print all the content of the file --> cat file_name , cat > file_name (to add the content in the file), cat >> file_name(to append the more info in the same file)
+7. vi - vim editor to edit the file
+8. mv - move file1 into file2 --> mv file1 file2
+9. cp - copy file 1 into file 2 --> cp file1 file2  orr (in case of copying directory into multiple directory) --> cp -r dir1 dir2 (-r is for recursively copying)
+10. npm - to install packages (node package manager) and manage node modules. ( you have to download node enigner first to use this command)
+11. node - node is used to run  javascript file or can create an environment where we can run node js commands . ( by writing node, then after that we can run any node js commands)
+12. git- 

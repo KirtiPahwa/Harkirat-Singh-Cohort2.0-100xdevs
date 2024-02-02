@@ -7,12 +7,16 @@ const fs=require("fs");
 // callbacks:  //ugly way
 
 function kirtiReadFile1(fun){
+    console.log(fun);
     fs.readFile("a.txt","utf-8",function(err,data){
         fun(data);
     })
 }
+function onDone(data){
+    console.log(data)
+}
 
-kirtiReadFile1(consoleOutput)
+kirtiReadFile1(onDone)
 
 
 
@@ -50,7 +54,7 @@ d.then(consoleOutput)
 // Rather than using .then method , i can use await . And for await , i have to use async
 
 async function main(){
-    var p=await kirtiReadFile1();
+    var p=await kirtiReadFile2();
     console.log(p);
 }
 main();
